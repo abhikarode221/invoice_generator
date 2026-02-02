@@ -1,0 +1,9 @@
+[build]
+  base = "invoice-generator"
+  command = "npm run build"
+  publish = "invoice-generator/build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
